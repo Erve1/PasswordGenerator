@@ -94,7 +94,7 @@ function generatePwTwo() {
 }
 
 function note() {
-    noteEl.textContent = "Click Password to Copy"
+    noteEl.textContent = "Click to Copy"
 }
 
 
