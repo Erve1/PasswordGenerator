@@ -94,7 +94,11 @@ function generatePwTwo() {
 }
 
 function note() {
+    if(warningEl.textContent == "" ) {
     noteEl.textContent = "Click to Copy"
+    } else {
+    noteEl.textContent = ""   
+    }
 }
 
 
